@@ -1,6 +1,6 @@
 #FenInDiv {
 	position: absolute;
-	top: 625px;
+	top: 545px;
 	left: 37px;
 	display: none;
 }
@@ -25,24 +25,24 @@
 #CurrentFenDiv {
 	position: absolute;
 	left: 37px;
-	top: 625px;
+	top: 545px;
 	margin-top: 25px;
 	display: none;
 }
 
 #Board {
-	position: relative;
+	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 600px;
-	height: 600px;
+	width: 520px;
+	height: 520px;
 	border-style:solid;
-  border-width:1px;
+	border-width:1px;	
 }
 
 #EngineOutput {
 	position: absolute;
-	top: 625px;	
+	top: 545px;	
 	left: 62px;
 }
 
@@ -66,8 +66,8 @@
 
 .Square {
 	position: absolute;	
-	width: 75px;
-	height: 75px;
+	width: 65px;
+	height: 65px;
 }
 
 .Light {
@@ -84,41 +84,41 @@
 
 .clickElement { cursor:pointer }
 
-.rank1 { top: 525px; }
-.rank2 { top: 450px; }
-.rank3 { top: 375px; }
-.rank4 { top: 300px; }
-.rank5 { top: 225px; }
-.rank6 { top: 150px; }
-.rank7 { top: 075px; }
+.rank1 { top: 455px; }
+.rank2 { top: 390px; }
+.rank3 { top: 325px; }
+.rank4 { top: 260px; }
+.rank5 { top: 195px; }
+.rank6 { top: 130px; }
+.rank7 { top: 065px; }
 .rank8 { top: 0px; }
 
 .file1 { left: 0px; }
-.file2 { left: 075px; }
-.file3 { left: 150px; }
-.file4 { left: 225px; }
-.file5 { left: 300px; }
-.file6 { left: 375px; }
-.file7 { left: 450px; }
-.file8 { left: 525px; }
+.file2 { left: 065px; }
+.file3 { left: 130px; }
+.file4 { left: 195px; }
+.file5 { left: 260px; }
+.file6 { left: 325px; }
+.file7 { left: 390px; }
+.file8 { left: 455px; }
 
-.rank8flip { top: 525px; }
-.rank7flip { top: 450px; }
-.rank6flip { top: 375px; }
-.rank5flip { top: 300px; }
-.rank4flip { top: 225px; }
-.rank3flip { top: 150px; }
-.rank2flip { top: 075px; }
+.rank8flip { top: 455px; }
+.rank7flip { top: 390px; }
+.rank6flip { top: 325px; }
+.rank5flip { top: 260px; }
+.rank4flip { top: 195px; }
+.rank3flip { top: 130px; }
+.rank2flip { top: 065px; }
 .rank1flip { top: 0px; }
 
 .file8flip { left: 0px; }
-.file7flip { left: 075px; }
-.file6flip { left: 150px; }
-.file5flip { left: 225px; }
-.file4flip { left: 300px; }
-.file3flip { left: 375px; }
-.file2flip { left: 450px; }
-.file1flip { left: 525px; }
+.file7flip { left: 065px; }
+.file6flip { left: 130px; }
+.file5flip { left: 195px; }
+.file4flip { left: 260px; }
+.file3flip { left: 325px; }
+.file2flip { left: 390px; }
+.file1flip { left: 455px; }
 
 
 
